@@ -1,6 +1,7 @@
 "use client";
 import About from "./About/About";
 import Hero from "./Hero/Hero";
+import Price from "./Price/Price";
 import Services from "./Services/Services";
 import WhyChoose from "./WhyChoose/WhyChoose";
 
@@ -12,6 +13,7 @@ const Home = () => {
       <About/>
       <Services/>
       <WhyChoose/>
+      <Price/>
     </div>
   );
 };
