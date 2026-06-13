@@ -79,12 +79,12 @@ const Hero = () => {
       />
       
       <div className="relative z-10 flex flex-col items-center px-4">
-        <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-md px-6 py-3 rounded-full mb-8 border border-white/20">
+        <div data-aos="fade-down" className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-md px-6 py-3 rounded-full mb-8 border border-white/20">
           <GiSparkles className="h-5 w-5 text-yellow-400 animate-pulse" />
           <span className="text-white font-medium">Welcome to WebdevWarriors</span>
         </div>
 
-        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 text-center">
+        <h1 data-aos="fade-up" data-aos-delay="200" className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 text-center">
           <TypeAnimation
             sequence={[
               "We Create Magic",
@@ -100,12 +100,12 @@ const Hero = () => {
           />
         </h1>
 
-        <p className="text-lg md:text-xl text-gray-300 max-w-2xl text-center mb-10 leading-relaxed">
+        <p data-aos="fade-up" data-aos-delay="400" className="text-lg md:text-xl text-gray-300 max-w-2xl text-center mb-10 leading-relaxed">
           We are a team of passionate developers and designers creating amazing
           digital experiences.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div data-aos="fade-up" data-aos-delay="600" className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
             href={"#"}
             className="bg-blue-600 text-white hover:bg-blue-700 font-medium py-2 px-4 rounded-full inline-flex items-center group transition duration-300"

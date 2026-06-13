@@ -22,9 +22,18 @@ const Services = () => {
         </h1>
       </div>
       {/* Service Cards */}
-      <div className="w-[80%] mx-auto mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div
+        data-aos="fade-up"
+        data-aos-achor-placement="top-center"
+        data-aos-delay="0"
+        className="w-[80%] mx-auto mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
+      >
         {services.map((service) => (
-          <ServiceCard key={service.title} title={service.title} icon={service.icon} />
+          <ServiceCard
+            key={service.title}
+            title={service.title}
+            icon={service.icon}
+          />
         ))}
       </div>
     </div>

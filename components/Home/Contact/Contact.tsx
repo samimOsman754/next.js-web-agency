@@ -19,6 +19,7 @@ const Contact = () => {
           width={900}
           height={900}
           className="mx-auto mt-16"
+          data-aos="zoom-in" data-aos-achor-placement="top-center" data-aos-delay="0"
         />
       </div>
       <div className="mt-16 px-16">
